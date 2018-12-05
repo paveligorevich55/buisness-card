@@ -1,0 +1,105 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+    .form-block .email-block input{
+        width: 410px;
+    }
+    .form-block .name-block input{
+        width: 410px;
+    }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .form-block .email-block input{
+        width: 310px;
+    }
+    .form-block .name-block input{
+        width: 310px;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .profile-image{
+        position: absolute;
+        top: 38px;
+        left: 38%;
+        width: 90px;
+    }
+    #form > h1{
+        margin-top: 60px;
+        font-size: 30px;
+        text-align: center;
+        color: #2C3A47;
+    }
+    .form-block .email-block{
+        float: none;
+    }
+    .form-block .name-block{
+        float: none;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 360px) {
+    header{
+        height: 75px;
+    }
+    #nav{
+        line-height: 75px;
+    }
+    #nav .wrapper .say__hello{
+        background-color: #fff;
+        padding: 5px 10px;
+        border-radius: 14px;
+        border: 2px solid #2C3A47;
+        color: #2C3A47;
+        font-size: 16px;
+        cursor: pointer;
+        transition: .6s;
+    }
+    .profile-image{
+        position: absolute;
+        top: 15px;
+        left: 35%;
+        width: 100px;
+        height: 100px;
+    }
+    #form > h1{
+        margin-top: 60px;
+        font-size: 30px;
+        text-align: center;
+        color: #2C3A47;
+    }
+    .form-block .email-block{
+        float: none;
+    }
+    .form-block .name-block{
+        float: none;
+    }
+    .form-block .email-block input{
+        width: 96%;
+        font-size: 16px;
+    }
+    .form-block .name-block input{
+        width: 96%;
+        font-size: 16px;
+    }
+    .form-block .email-block label{
+        font-size: 18px;
+    }
+    .form-block .name-block label{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .text-area textarea{
+        width: 95%;
+        font-size: 16px;
+        height: 200px;
+    }
+}

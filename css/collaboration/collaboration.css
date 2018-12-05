@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "eurostile",sans-serif !important;
+    color: #293347;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+header{
+    height: 100px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.171);
+}
+#nav{
+    background-color: rgb(36, 41, 46);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    width: 100%;
+    height: 100%;
+    line-height: 100px;
+}
+#nav .wrapper{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav .wrapper .home__link{
+    display: block;
+    align-self: center;
+    padding-top: 28px;
+}
+#nav .wrapper .say__hello{
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 18px;
+    border: 2px solid #2C3A47;
+    color: #2C3A47;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .6s;
+}
+#nav .wrapper .say__hello:hover{
+    background-color: #2C3A47;
+    color: white;
+    transition: .6s;
+}
+.profile-image{
+    position: absolute;
+    top: 40px;
+    left: 45%;
+    width: 100px;
+    height: 100px;
+}
+.profile-image img{
+    width: 100%;
+}
+#form{
+    width: 80%;
+    margin: 0px auto;
+}
+#form > h1{
+    margin-top: 50px;
+    font-size: 36px;
+    text-align: center;
+    color: #2C3A47;
+}
+ .form-block{
+    position: relative;
+    margin-top: 50px;
+}
+
+.form-block .email-block{
+    float: left;
+}
+.form-block .name-block{
+    float: right;
+}
+.form-block .project-block{
+    float: left;
+}
+.form-block .interest-block{
+    float: right;
+}
+.form-block .email-block input{
+    width: 100%;
+    height: 30px;
+    margin-top: 7px;
+    padding: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.171);
+    border-radius: 5px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.753);
+}
+.form-block .name-block input{
+    width: 100%;
+    height: 30px;
+    margin-top: 7px;
+    padding: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.171);
+    border-radius: 5px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.753);
+}
+.form-block .email-block label{
+    font-size: 22px;
+    display: block;
+    opacity: 0.7;
+    font-weight: 600;
+}
+.form-block .name-block label{
+    font-size: 22px;
+    display: block;
+    opacity: 0.7;
+    font-weight: 600;
+}
+.form-block .project-block label{
+    font-size: 22px;
+    display: block;
+    opacity: 0.7;
+    font-weight: 600;
+}
+.form-block .interest-block label{
+    font-size: 22px;
+    display: block;
+    opacity: 0.7;
+    font-weight: 600;
+}
+.text-area{
+    width: 100%;
+    margin: 0 auto;
+}
+.text-area textarea{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.171);
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 9px;
+    color: rgba(0, 0, 0, 0.753); 
+}
+.submit-block{
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+.submit-form{
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 18px;
+    border: 2px solid #2C3A47;
+    color: #2C3A47;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .6s;
+}
+.submit-form:hover{
+    background-color: #2C3A47;
+    color: white;
+    transition: .6s;
+}
